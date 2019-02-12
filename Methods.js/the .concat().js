@@ -1,0 +1,42 @@
+const nameCountryOne = ['Egypt', 'Brazil', 'India', 'Australia',
+'Colombia', 'Canada', 'Korea', 'Mexico', 'Malaysia',
+'Peru', 'Scotland', 'Ireland', 'Portugal', 'Vietnam',
+'Germany', 'Greece', 'Thailand', 'Oman', 'Portugaly'];
+const nameCountrySecond = ['France', 'South Africa',
+'Poland', 'Spain', 'Turkey', 'Italy', 'Argentina', 'Russia',
+'the USA', 'China', 'Japan', 'New Zealand'];
+console.log(nameCountryOne.concat(nameCountrySecond));//returns a new array( array1+array2)
+//Prints:
+/*
+[ 'Egypt',
+  'Brazil',
+  'India',
+  'Australia',
+  'Colombia',
+  'Canada',
+  'Korea',
+  'Mexico',
+  'Malaysia',
+  'Peru',
+  'Scotland',
+  'Ireland',
+  'Portugal',
+  'Vietnam',
+  'Germany',
+  'Greece',
+  'Thailand',
+  'Oman',
+  'Portugaly',
+  'France',
+  'South Africa',
+  'Poland',
+  'Spain',
+  'Turkey',
+  'Italy',
+  'Argentina',
+  'Russia',
+  'the USA',
+  'China',
+  'Japan',
+  'New Zealand' ]
+*/
